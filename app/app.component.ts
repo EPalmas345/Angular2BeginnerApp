@@ -4,7 +4,7 @@ import {Component} from 'angular2/core';
   selector: 'my-app',
   template:
   `
-  <h3>App Working!</h3>
+  <h3>App Working!!!</h3>
   `
 })
 export class AppComponent {
