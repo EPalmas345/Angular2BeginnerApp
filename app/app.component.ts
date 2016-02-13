@@ -1,11 +1,14 @@
 import {Component} from 'angular2/core';
-
+import {ContactListComponent} from 
+	'./contacts/contact-list.component';
 @Component({
   selector: 'my-app',
   template:
   `
-  <h3>App Working!!!</h3>
+  <contact-list></contact-list>
   `
+  ,
+  directives: [ContactListComponent]
 })
 export class AppComponent {
 }
